@@ -10,6 +10,7 @@ namespace WindowsFormsApp2
 {
     public partial class FormNhapKho : Form
     {
+        //Doan.Van 2024-05-20
         DataTable table = new DataTable("DuLieuNhapKho");
         string text_sc = string.Empty;
 
