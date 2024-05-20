@@ -13,7 +13,7 @@ namespace WindowsFormsApp2
         {
             string connString = @"Data Source=192.168.0.7;Initial Catalog=ProductionControl;Integrated Security=false;User ID=kproduct;Password=tanphat@02032013;";
             SqlConnection conSql = new SqlConnection();
-            conSql.ConnectionString = connString;
+            conSql.ConnectionString = connString;//
             conSql.Open();
             return conSql;
         }
